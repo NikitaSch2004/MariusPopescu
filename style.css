@@ -230,7 +230,7 @@ li > div{
     margin: 0px;
 }
 
-#grp122 > h2{
+#grp122 > h2{   
     display: flex;
     align-items: center;
     width: 156px;
@@ -290,3 +290,168 @@ li > div{
     margin: 0px;
 }
 /************************************************************************/
+#beneficii{
+    height: 497px;
+    width: 100%;
+    background-image: url("Rectangle.png");
+    margin-bottom: 160px;
+}
+#grp111{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#grp107{
+    margin: 0px 124px 0px 124px;
+    padding-top: 56px;
+    padding-bottom: 64px;
+}
+#grp107 > h2{
+    margin: 0px 0px 40px 0px;
+    font-weight: 500;
+    font-size: 38px;
+}
+.bnf>img{
+    background-image: url("Ellipse.png");
+    width: 100px;
+    height: 100px;
+}
+.bnf>h6{
+    margin: 20px 0px 22px 0px;
+    width: 82px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.bnf>p{
+    width: 268px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 00.01em;
+    opacity: 0.9;
+}
+/************************************************************************/
+#Amintiri{
+    width: 1600px;
+    height: 1028px;
+    margin: 0px 160px 160px 160px;
+
+}
+#Amintiri > h2{
+    width: 185px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 52px;
+    letter-spacing: 0.01em;
+    color: black;
+    margin: 0px 0px 56px 0px;
+}
+#grp121{
+    display: flex;
+    flex-direction: row;
+}
+#grp121 > h4{
+    margin: 0px;
+}
+#h41{
+    width: 123px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 00.01em;
+}
+#h42{
+    width: 16px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+}
+#h43{
+    width: 160px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 00.01em;    
+}
+#grp124{
+    width: 1600px;
+    height: 752px;
+    display: grid;
+    margin-top: 32px;
+}
+#frame154{
+    display: flex;
+    justify-content: center;
+}
+#frame154 > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 177px;
+    padding: 0px;
+    height: 65px;
+    background-color: white;
+    border: 2.6px solid #FD9900;
+    border-radius: 22px;
+}
+#mai-multe > p{
+    display: flex;
+    align-items: center;
+    width: 93px;
+    height: 33px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+}
+.imgrow1{
+    width: 501px;
+    height: 268px;
+    background-color: #616161;
+}
+.imgrow2{
+    width: 364px;
+    height: 400px;
+    background-color: #616161;
+}
+#grp124 > div{
+    display: flex;
+    justify-content: space-between;
+
+}
+#grp124-1{
+    height: 268px;
+}
+#grp124-2{
+    height: 400px;
+}
+/************************************************************************/
+#info-membri{
+    width: 1920px;
+    height: 852px;
+    background-image: black;
+}
+#info-membri > h2{
+    width: 417px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 52px;
+    letter-spacing: 0.01em;
+    margin: 70px 0px 56px 160px;
+}
+#frame64{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eclipse{
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border-radius: 100%;
+}
+/************************************************************************/
+
