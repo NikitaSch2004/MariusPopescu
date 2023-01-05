@@ -432,7 +432,7 @@ li > div{
 #info-membri{
     width: 1920px;
     height: 852px;
-    background-color: green;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
