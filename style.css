@@ -614,14 +614,14 @@ li > div{
 }
 /************************************************************************/
 #appointment{
-    width: 1920px;
+    max-width: 1920px;
     height: 808px;
 }
 /************************************************************************/
 footer{
-    margin: 160px auto 16px auto;
+    margin: 160px auto 16px 160px;
     background-color: white;
-    width: 1573px;
+    max-width: 1573px;
     height: 354px;
 }
 footer > p{
@@ -643,7 +643,7 @@ footer > p{
     height: 156px;
 }
 #grp160 > p{
-    width: 501px;
+    max-width: 501px;
     height: 99px;
     font-weight: 400;
     font-size: 22px;
@@ -676,3 +676,47 @@ footer > p{
     justify-content: space-between;
 }
 /************************************************************************/
+@media screen and (max-width: 1680px) {
+    #grp160 > p{
+        font-size: 21px;
+    }
+    .Highlited{
+        font-size: 28px;
+    }
+    .normal{
+        font-size: 21px;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    #grp160 > p{
+        font-size: 20px;
+    }
+    .Highlited{
+        font-size: 26px;
+    }
+    .normal{
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    #grp160 > p{
+        font-size: 19px;
+    }
+    .Highlited{
+        font-size: 24px;
+    }
+    .normal{
+        font-size: 19px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    #grp160 > p{
+        font-size: 18px;
+    }
+    .Highlited{
+        font-size: 24px;
+    }
+    .normal{
+        font-size: 18px;
+    }
+  }
